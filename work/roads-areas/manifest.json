@@ -1,0 +1,908 @@
+{
+  "geometry": "areas",
+  "sourceRowCount": 72154,
+  "kindCounts": {
+    "bus_station": 1368,
+    "ferry_terminal": 171,
+    "fuel": 67192,
+    "railway_station": 439,
+    "services": 2984
+  },
+  "countsBeforeBoundaryAndDeduplication": true,
+  "extracts": [
+    {
+      "slug": "alabama",
+      "source": "https://download.geofabrik.de/north-america/us/alabama-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:00:22 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1165,
+      "kindCounts": {
+        "bus_station": 7,
+        "fuel": 1090,
+        "services": 68
+      }
+    },
+    {
+      "slug": "alaska",
+      "source": "https://download.geofabrik.de/north-america/us/alaska-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:52:53 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 201,
+      "kindCounts": {
+        "bus_station": 3,
+        "ferry_terminal": 11,
+        "fuel": 187
+      }
+    },
+    {
+      "slug": "arizona",
+      "source": "https://download.geofabrik.de/north-america/us/arizona-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 04:56:21 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1636,
+      "kindCounts": {
+        "bus_station": 69,
+        "ferry_terminal": 2,
+        "fuel": 1484,
+        "railway_station": 2,
+        "services": 79
+      }
+    },
+    {
+      "slug": "arkansas",
+      "source": "https://download.geofabrik.de/north-america/us/arkansas-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 05:04:22 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 902,
+      "kindCounts": {
+        "bus_station": 5,
+        "fuel": 809,
+        "railway_station": 8,
+        "services": 80
+      }
+    },
+    {
+      "slug": "colorado",
+      "source": "https://download.geofabrik.de/north-america/us/colorado-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:59:24 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1244,
+      "kindCounts": {
+        "bus_station": 31,
+        "fuel": 1169,
+        "railway_station": 7,
+        "services": 37
+      }
+    },
+    {
+      "slug": "connecticut",
+      "source": "https://download.geofabrik.de/north-america/us/connecticut-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 05:09:38 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 799,
+      "kindCounts": {
+        "bus_station": 17,
+        "ferry_terminal": 2,
+        "fuel": 750,
+        "railway_station": 6,
+        "services": 24
+      }
+    },
+    {
+      "slug": "delaware",
+      "source": "https://download.geofabrik.de/north-america/us/delaware-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:43:37 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 290,
+      "kindCounts": {
+        "bus_station": 2,
+        "ferry_terminal": 1,
+        "fuel": 284,
+        "railway_station": 1,
+        "services": 2
+      }
+    },
+    {
+      "slug": "district-of-columbia",
+      "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 04:04:37 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 48,
+      "kindCounts": {
+        "bus_station": 3,
+        "fuel": 45
+      }
+    },
+    {
+      "slug": "florida",
+      "source": "https://download.geofabrik.de/north-america/us/florida-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:25:59 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 3918,
+      "kindCounts": {
+        "bus_station": 72,
+        "ferry_terminal": 7,
+        "fuel": 3731,
+        "railway_station": 13,
+        "services": 95
+      }
+    },
+    {
+      "slug": "georgia",
+      "source": "https://download.geofabrik.de/north-america/us/georgia-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:08:06 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 3226,
+      "kindCounts": {
+        "bus_station": 14,
+        "ferry_terminal": 1,
+        "fuel": 3076,
+        "railway_station": 6,
+        "services": 129
+      }
+    },
+    {
+      "slug": "hawaii",
+      "source": "https://download.geofabrik.de/north-america/us/hawaii-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:40:27 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 178,
+      "kindCounts": {
+        "bus_station": 3,
+        "ferry_terminal": 1,
+        "fuel": 171,
+        "railway_station": 2,
+        "services": 1
+      }
+    },
+    {
+      "slug": "idaho",
+      "source": "https://download.geofabrik.de/north-america/us/idaho-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 04:58:29 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 596,
+      "kindCounts": {
+        "bus_station": 6,
+        "fuel": 566,
+        "railway_station": 2,
+        "services": 22
+      }
+    },
+    {
+      "slug": "illinois",
+      "source": "https://download.geofabrik.de/north-america/us/illinois-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:51:29 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 3395,
+      "kindCounts": {
+        "bus_station": 143,
+        "ferry_terminal": 2,
+        "fuel": 3085,
+        "railway_station": 5,
+        "services": 160
+      }
+    },
+    {
+      "slug": "indiana",
+      "source": "https://download.geofabrik.de/north-america/us/indiana-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:16:11 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1677,
+      "kindCounts": {
+        "bus_station": 12,
+        "fuel": 1558,
+        "railway_station": 4,
+        "services": 103
+      }
+    },
+    {
+      "slug": "iowa",
+      "source": "https://download.geofabrik.de/north-america/us/iowa-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:00:14 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 982,
+      "kindCounts": {
+        "bus_station": 15,
+        "ferry_terminal": 2,
+        "fuel": 893,
+        "railway_station": 5,
+        "services": 67
+      }
+    },
+    {
+      "slug": "kansas",
+      "source": "https://download.geofabrik.de/north-america/us/kansas-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:12:17 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 654,
+      "kindCounts": {
+        "bus_station": 8,
+        "fuel": 595,
+        "services": 51
+      }
+    },
+    {
+      "slug": "kentucky",
+      "source": "https://download.geofabrik.de/north-america/us/kentucky-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:03:26 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1007,
+      "kindCounts": {
+        "bus_station": 7,
+        "fuel": 932,
+        "railway_station": 2,
+        "services": 66
+      }
+    },
+    {
+      "slug": "louisiana",
+      "source": "https://download.geofabrik.de/north-america/us/louisiana-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 03:32:31 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 722,
+      "kindCounts": {
+        "bus_station": 7,
+        "ferry_terminal": 4,
+        "fuel": 645,
+        "railway_station": 2,
+        "services": 64
+      }
+    },
+    {
+      "slug": "maine",
+      "source": "https://download.geofabrik.de/north-america/us/maine-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:57:49 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 396,
+      "kindCounts": {
+        "bus_station": 5,
+        "ferry_terminal": 2,
+        "fuel": 376,
+        "railway_station": 2,
+        "services": 11
+      }
+    },
+    {
+      "slug": "maryland",
+      "source": "https://download.geofabrik.de/north-america/us/maryland-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:15:03 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1612,
+      "kindCounts": {
+        "bus_station": 19,
+        "ferry_terminal": 8,
+        "fuel": 1557,
+        "railway_station": 3,
+        "services": 25
+      }
+    },
+    {
+      "slug": "massachusetts",
+      "source": "https://download.geofabrik.de/north-america/us/massachusetts-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:34:13 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 986,
+      "kindCounts": {
+        "bus_station": 19,
+        "ferry_terminal": 9,
+        "fuel": 902,
+        "railway_station": 35,
+        "services": 21
+      }
+    },
+    {
+      "slug": "michigan",
+      "source": "https://download.geofabrik.de/north-america/us/michigan-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:00:46 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 738,
+      "kindCounts": {
+        "bus_station": 33,
+        "ferry_terminal": 5,
+        "fuel": 647,
+        "railway_station": 6,
+        "services": 47
+      }
+    },
+    {
+      "slug": "micronesia",
+      "source": "https://download.geofabrik.de/australia-oceania/micronesia-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 00:53:04 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 6,
+      "kindCounts": {
+        "fuel": 6
+      }
+    },
+    {
+      "slug": "minnesota",
+      "source": "https://download.geofabrik.de/north-america/us/minnesota-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 03:36:37 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1480,
+      "kindCounts": {
+        "bus_station": 25,
+        "fuel": 1427,
+        "railway_station": 5,
+        "services": 23
+      }
+    },
+    {
+      "slug": "mississippi",
+      "source": "https://download.geofabrik.de/north-america/us/mississippi-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:11:17 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 780,
+      "kindCounts": {
+        "bus_station": 3,
+        "fuel": 726,
+        "railway_station": 2,
+        "services": 49
+      }
+    },
+    {
+      "slug": "missouri",
+      "source": "https://download.geofabrik.de/north-america/us/missouri-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 00:48:28 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1632,
+      "kindCounts": {
+        "bus_station": 25,
+        "ferry_terminal": 4,
+        "fuel": 1491,
+        "railway_station": 12,
+        "services": 100
+      }
+    },
+    {
+      "slug": "montana",
+      "source": "https://download.geofabrik.de/north-america/us/montana-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 05:08:12 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 386,
+      "kindCounts": {
+        "bus_station": 8,
+        "fuel": 354,
+        "services": 24
+      }
+    },
+    {
+      "slug": "nebraska",
+      "source": "https://download.geofabrik.de/north-america/us/nebraska-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:01:44 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 422,
+      "kindCounts": {
+        "bus_station": 6,
+        "fuel": 338,
+        "railway_station": 1,
+        "services": 77
+      }
+    },
+    {
+      "slug": "nevada",
+      "source": "https://download.geofabrik.de/north-america/us/nevada-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:00:14 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 880,
+      "kindCounts": {
+        "bus_station": 8,
+        "ferry_terminal": 1,
+        "fuel": 822,
+        "railway_station": 13,
+        "services": 36
+      }
+    },
+    {
+      "slug": "new-hampshire",
+      "source": "https://download.geofabrik.de/north-america/us/new-hampshire-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:19:31 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 405,
+      "kindCounts": {
+        "bus_station": 9,
+        "fuel": 390,
+        "railway_station": 3,
+        "services": 3
+      }
+    },
+    {
+      "slug": "new-jersey",
+      "source": "https://download.geofabrik.de/north-america/us/new-jersey-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 00:57:31 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1509,
+      "kindCounts": {
+        "bus_station": 25,
+        "ferry_terminal": 10,
+        "fuel": 1427,
+        "railway_station": 14,
+        "services": 33
+      }
+    },
+    {
+      "slug": "new-mexico",
+      "source": "https://download.geofabrik.de/north-america/us/new-mexico-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 03:05:20 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 635,
+      "kindCounts": {
+        "bus_station": 9,
+        "fuel": 575,
+        "railway_station": 2,
+        "services": 49
+      }
+    },
+    {
+      "slug": "new-york",
+      "source": "https://download.geofabrik.de/north-america/us/new-york-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:28:33 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 2294,
+      "kindCounts": {
+        "bus_station": 46,
+        "ferry_terminal": 21,
+        "fuel": 2152,
+        "railway_station": 18,
+        "services": 57
+      }
+    },
+    {
+      "slug": "norcal",
+      "source": "https://download.geofabrik.de/north-america/us/california/norcal-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:07:29 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 2045,
+      "kindCounts": {
+        "bus_station": 55,
+        "ferry_terminal": 3,
+        "fuel": 1926,
+        "railway_station": 11,
+        "services": 50
+      }
+    },
+    {
+      "slug": "north-carolina",
+      "source": "https://download.geofabrik.de/north-america/us/north-carolina-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:17:02 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1740,
+      "kindCounts": {
+        "bus_station": 28,
+        "ferry_terminal": 4,
+        "fuel": 1641,
+        "railway_station": 8,
+        "services": 59
+      }
+    },
+    {
+      "slug": "north-dakota",
+      "source": "https://download.geofabrik.de/north-america/us/north-dakota-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:16:31 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 290,
+      "kindCounts": {
+        "bus_station": 2,
+        "fuel": 262,
+        "services": 26
+      }
+    },
+    {
+      "slug": "ohio",
+      "source": "https://download.geofabrik.de/north-america/us/ohio-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:53:35 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 3003,
+      "kindCounts": {
+        "bus_station": 35,
+        "ferry_terminal": 6,
+        "fuel": 2787,
+        "railway_station": 7,
+        "services": 168
+      }
+    },
+    {
+      "slug": "oklahoma",
+      "source": "https://download.geofabrik.de/north-america/us/oklahoma-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:27:03 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1149,
+      "kindCounts": {
+        "bus_station": 8,
+        "fuel": 1034,
+        "railway_station": 3,
+        "services": 104
+      }
+    },
+    {
+      "slug": "oregon",
+      "source": "https://download.geofabrik.de/north-america/us/oregon-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:19:15 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 897,
+      "kindCounts": {
+        "bus_station": 34,
+        "fuel": 821,
+        "railway_station": 8,
+        "services": 34
+      }
+    },
+    {
+      "slug": "pennsylvania",
+      "source": "https://download.geofabrik.de/north-america/us/pennsylvania-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 03:06:22 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 2769,
+      "kindCounts": {
+        "bus_station": 41,
+        "fuel": 2630,
+        "railway_station": 21,
+        "services": 77
+      }
+    },
+    {
+      "slug": "puerto-rico",
+      "source": "https://download.geofabrik.de/north-america/us/puerto-rico-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:59:56 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 155,
+      "kindCounts": {
+        "bus_station": 65,
+        "ferry_terminal": 8,
+        "fuel": 81,
+        "services": 1
+      }
+    },
+    {
+      "slug": "rhode-island",
+      "source": "https://download.geofabrik.de/north-america/us/rhode-island-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 03:48:01 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 121,
+      "kindCounts": {
+        "bus_station": 2,
+        "ferry_terminal": 3,
+        "fuel": 114,
+        "railway_station": 1,
+        "services": 1
+      }
+    },
+    {
+      "slug": "samoa",
+      "source": "https://download.geofabrik.de/australia-oceania/samoa-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:19:10 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 38,
+      "kindCounts": {
+        "bus_station": 6,
+        "ferry_terminal": 10,
+        "fuel": 22
+      }
+    },
+    {
+      "slug": "socal",
+      "source": "https://download.geofabrik.de/north-america/us/california/socal-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 05:00:04 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 2545,
+      "kindCounts": {
+        "bus_station": 70,
+        "ferry_terminal": 6,
+        "fuel": 2355,
+        "railway_station": 45,
+        "services": 69
+      }
+    },
+    {
+      "slug": "south-carolina",
+      "source": "https://download.geofabrik.de/north-america/us/south-carolina-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:57:09 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1123,
+      "kindCounts": {
+        "bus_station": 11,
+        "ferry_terminal": 1,
+        "fuel": 1033,
+        "services": 78
+      }
+    },
+    {
+      "slug": "south-dakota",
+      "source": "https://download.geofabrik.de/north-america/us/south-dakota-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 00:44:47 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 350,
+      "kindCounts": {
+        "bus_station": 7,
+        "fuel": 325,
+        "railway_station": 1,
+        "services": 17
+      }
+    },
+    {
+      "slug": "tennessee",
+      "source": "https://download.geofabrik.de/north-america/us/tennessee-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 03:11:14 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1623,
+      "kindCounts": {
+        "bus_station": 11,
+        "fuel": 1490,
+        "railway_station": 9,
+        "services": 113
+      }
+    },
+    {
+      "slug": "texas",
+      "source": "https://download.geofabrik.de/north-america/us/texas-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 05:02:10 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 9430,
+      "kindCounts": {
+        "bus_station": 187,
+        "ferry_terminal": 1,
+        "fuel": 8777,
+        "railway_station": 96,
+        "services": 369
+      }
+    },
+    {
+      "slug": "utah",
+      "source": "https://download.geofabrik.de/north-america/us/utah-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:03:10 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1116,
+      "kindCounts": {
+        "bus_station": 10,
+        "fuel": 1055,
+        "railway_station": 9,
+        "services": 42
+      }
+    },
+    {
+      "slug": "vermont",
+      "source": "https://download.geofabrik.de/north-america/us/vermont-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 01:56:04 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 333,
+      "kindCounts": {
+        "bus_station": 2,
+        "fuel": 324,
+        "railway_station": 5,
+        "services": 2
+      }
+    },
+    {
+      "slug": "virginia",
+      "source": "https://download.geofabrik.de/north-america/us/virginia-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 04:42:39 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 2242,
+      "kindCounts": {
+        "bus_station": 24,
+        "fuel": 2152,
+        "railway_station": 4,
+        "services": 62
+      }
+    },
+    {
+      "slug": "washington",
+      "source": "https://download.geofabrik.de/north-america/us/washington-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:08:07 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 2094,
+      "kindCounts": {
+        "bus_station": 73,
+        "ferry_terminal": 30,
+        "fuel": 1937,
+        "railway_station": 26,
+        "services": 28
+      }
+    },
+    {
+      "slug": "west-virginia",
+      "source": "https://download.geofabrik.de/north-america/us/west-virginia-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 03:06:05 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 492,
+      "kindCounts": {
+        "bus_station": 11,
+        "ferry_terminal": 1,
+        "fuel": 470,
+        "railway_station": 1,
+        "services": 9
+      }
+    },
+    {
+      "slug": "wisconsin",
+      "source": "https://download.geofabrik.de/north-america/us/wisconsin-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 04:37:51 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 1558,
+      "kindCounts": {
+        "bus_station": 21,
+        "ferry_terminal": 5,
+        "fuel": 1482,
+        "railway_station": 3,
+        "services": 47
+      }
+    },
+    {
+      "slug": "wyoming",
+      "source": "https://download.geofabrik.de/north-america/us/wyoming-261120-free.shp.zip",
+      "modified": "Sat, 21 Nov 2026 02:45:38 GMT",
+      "layers": [
+        "traffic_a",
+        "transport_a"
+      ],
+      "sourceRowCount": 240,
+      "kindCounts": {
+        "bus_station": 1,
+        "fuel": 214,
+        "services": 25
+      }
+    }
+  ]
+}

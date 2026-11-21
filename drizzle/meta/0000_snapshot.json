@@ -1,0 +1,84 @@
+{
+  "version": "6",
+  "dialect": "sqlite",
+  "id": "e692a1b0-3a51-474e-aaef-e793cf28d5f9",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "tables": {
+    "bathroom_ratings": {
+      "name": "bathroom_ratings",
+      "columns": {
+        "place_id": {
+          "name": "place_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "visitor_id": {
+          "name": "visitor_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "rating": {
+          "name": "rating",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "bathroom_ratings_visitor_idx": {
+          "name": "bathroom_ratings_visitor_idx",
+          "columns": [
+            "visitor_id"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "bathroom_ratings_place_id_visitor_id_pk": {
+          "columns": [
+            "place_id",
+            "visitor_id"
+          ],
+          "name": "bathroom_ratings_place_id_visitor_id_pk"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {
+        "bathroom_ratings_score_check": {
+          "name": "bathroom_ratings_score_check",
+          "value": "typeof(\"bathroom_ratings\".\"rating\") = 'integer' AND \"bathroom_ratings\".\"rating\" BETWEEN 1 AND 5"
+        }
+      }
+    }
+  },
+  "views": {},
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  },
+  "internal": {
+    "indexes": {}
+  }
+}
