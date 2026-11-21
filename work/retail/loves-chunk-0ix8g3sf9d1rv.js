@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,97327,e=>{"use strict";var t=e.i(29213);e.s(["ReactRichText",()=>t.RichText])},54712,e=>{e.v(e=>Promise.resolve().then(()=>e(60688)))}]);
